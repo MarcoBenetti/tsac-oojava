@@ -29,7 +29,7 @@ public class LiberoProfessionista extends Cliente {
 		this.fattureRegistrate = fattureRegistrate;
 	}
 	
-	public double calcolaParcella(){
-		return 50 + (0.5 * this.fattureRegistrate);
+	public int calcolaParcella(){
+		return 5000 + (50 * this.fattureRegistrate);
 	}
 }

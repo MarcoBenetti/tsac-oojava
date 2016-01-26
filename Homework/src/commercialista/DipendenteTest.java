@@ -9,7 +9,7 @@ public class DipendenteTest {
 	@Test
 	public void test() {
 		Dipendente d = new Dipendente("Primo", "Levi", "PRMLEV");
-		assertEquals(50, d.calcolaParcella(), 0.00001);
+		assertEquals(5000, d.calcolaParcella());
 	}
 
 }

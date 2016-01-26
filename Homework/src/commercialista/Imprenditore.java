@@ -39,10 +39,10 @@ public class Imprenditore extends Cliente {
 		this.fattureRegistrate = fattureRegistrate;
 	}
 	
-	public double calcolaParcella(){
+	public int calcolaParcella(){
 		if(this.fattureRegistrate <= 100)
-			return 500;
+			return 50000;
 		else
-			return 500 + (this.fattureRegistrate - 100);
+			return 50000 + ((this.fattureRegistrate - 100)*100);
 	}
 }

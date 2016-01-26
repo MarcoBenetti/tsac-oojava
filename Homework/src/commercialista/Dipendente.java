@@ -7,7 +7,7 @@ public class Dipendente extends Cliente{
 	}
 	
 	//methods
-	public double calcolaParcella(){
-		return 50;
+	public int calcolaParcella(){
+		return 5000;
 	}
 }
