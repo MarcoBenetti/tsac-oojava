@@ -1,0 +1,13 @@
+package benetti.marco.polimorfismo.main;
+
+public class Progetto {
+	private String nome;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+}
