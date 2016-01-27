@@ -1,6 +1,6 @@
 package commercialista;
 
-public class Cliente {
+public abstract class Cliente { //new Cliente() da errore
 	//attributes
 	private String nome;
 	private String cognome;
@@ -38,5 +38,9 @@ public class Cliente {
 	public void setCf(String cf) {
 		this.cf = cf;
 	}
+	//ereditarietà multipla -> interfacce, non devono avere dati, solo metodi dichiarati
+	//in sostanza serve a calmare il compilatore, visto che non sa se sto metodo esiste
 	
+	public abstract int calcolaParcella(); //meodo astratto, dichiaro il metodo
+	//ma non lo definisco. Assicuro che tutte le sottoclassi conterranno tale metodo
 }
